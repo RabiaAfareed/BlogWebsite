@@ -11,7 +11,7 @@ function Contact() {
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState<string | null>(null);
+  const [status, ] = useState<string | null>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
